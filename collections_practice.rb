@@ -1,5 +1,5 @@
 sort_array_asc(array)
-puts array.sort
+return array.sort
  end 
 
 
