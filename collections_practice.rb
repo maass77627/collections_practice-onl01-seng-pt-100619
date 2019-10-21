@@ -41,7 +41,17 @@ def sum_array(array)
   counter
 end 
 
+def add_s(array)
+  array.collect.with_index do |word, index|
+    if index !=1
+      word << "s"
+    else 
+      word
+    end
+  end
+end
 
+def swap_elements_
   
   
   
