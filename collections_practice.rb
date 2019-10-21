@@ -51,7 +51,12 @@ def add_s(array)
   end
 end
 
-def swap_elements_
+def swap_elements_from_to(array, idx, new_idx)
+  array[idx], array[new_idx] = array[new_idx], array[idx]
+  array
+  element = array
+  array_before_destination
+end 
   
   
   
